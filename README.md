@@ -12,3 +12,13 @@ Version 5.5 was compiled and included in this project.
 
 To update to future versions of the LiveSDK, compile latest from github and include in this project under Jars.
 
+LiveSDK.Android.Sample is sample Xamarin.Android application for illustrating the usage.  Example;
+
+		private void Login ()
+		{
+			Java.Util.ArrayList scopes = new Java.Util.ArrayList ();
+			scopes.AddAll (new string[] { "wl.signin", "wl.skydrive_update", "wl.offline_access" });
+
+			LiveAuthClient client = new LiveAuthClient(this, CLIENT_ID);
+			client.Login (this, scopes, this);
+		}
