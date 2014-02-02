@@ -16,7 +16,7 @@ LiveSDK.Android.Sample is a sample Xamarin.Android application for illustrating 
 
 		private void Login ()
 		{
-			Java.Util.ArrayList scopes = new Java.Util.ArrayList ();
+			ArrayList scopes = new ArrayList ();
 			scopes.AddAll (new string[] { "wl.signin", "wl.skydrive_update", "wl.offline_access" });
 
 			LiveAuthClient client = new LiveAuthClient(this, CLIENT_ID);
