@@ -12,7 +12,7 @@ Version 5.5 was compiled and included in this project.
 
 To update to future versions of the LiveSDK, compile latest from github and include in this project under Jars.
 
-LiveSDK.Android.Sample is sample Xamarin.Android application for illustrating the usage.  Example;
+LiveSDK.Android.Sample is a sample Xamarin.Android application for illustrating usage.  Example;
 
 		private void Login ()
 		{
