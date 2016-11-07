@@ -1,5 +1,7 @@
 LiveSDK.Android
 ===============
+11/7/2016
+Preparing Update
 
 2/1/2014
 Xamarin Binding Library for LiveSDK for Android
