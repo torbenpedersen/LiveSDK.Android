@@ -1,5 +1,8 @@
 LiveSDK.Android
 ===============
+12/23/2016
+LiveSDK.Android has been superceded with the current OneDriveSDK.  Please find an Android implementation here: https://github.com/torbenpedersen/onedrive-sdk-dotnet-msa-auth-adapter
+
 11/7/2016
 Preparing Update
 
